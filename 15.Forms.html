@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Inputs</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label><br>  
+        <input type="text" id="name" name="name" placeholder="Name"> <br>
+
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="E-mail"><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="Password"><br>
+
+        <label for="date">Birthday Date</label><br>
+        <input type="date" name="date" id="date"><br> <br>
+
+        Gender <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" value="other"><br><br>
+
+        <label for="hobbies">Hobbies</label><br>
+        Technology
+        <input type="checkbox" name="tech" id="tech">
+        Music
+        <input type="checkbox" name="music" id="music">
+        Spor
+        <input type="checkbox" name="spor" id="spor"><br><br>
+
+        <select name="degree" id="degree">
+            <option value="sec">Seçiniz</option>
+            <option value="msc">Yüksek Lisans</option>
+            <option value="bacholer">Lisans</option>
+            <option value="onl">Önlisans</option>
+        </select><br><br>
+
+        <textarea name="message" id="message" rows="10" cols="50" placeholder="Your Message"></textarea><br>
+
+
+
+        <br><br><input type="submit" value="Submit">
+        <button type="reset">Clear</button>
+
+    </form>
+</body>
+</html>
